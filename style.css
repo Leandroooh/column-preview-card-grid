@@ -42,15 +42,17 @@
   width: 290px;
   height: 320px;
 
-  color: var(--transparent-white);
-
   padding: 40px;
+
+  color: var(--transparent-white);
 }
 
 .card h1 {
   margin-top: 2rem;
+
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+
   font: 900 2.6rem/1 "Big Shoulders Display", cursive;
 }
 
@@ -62,18 +64,21 @@
 }
 
 .card > a {
-  text-decoration: none;
-  color: var(--card-dark-cyan);
-  background: white;
-  padding: 1rem 2.2rem;
   border-radius: 20px;
+
+  padding: 1rem 2.2rem;
+  text-decoration: none;
+
+  background: white;
+  color: var(--card-dark-cyan);
   font: 500 1.2rem/0 "Lexend Deca", sans-serif;
 }
 
 .sedans-card {
-  background: var(--card-orange);
-  border-radius: 16px 16px 0 0;
   grid-area: sedans-card;
+
+  border-radius: 16px 16px 0 0;
+  background: var(--card-orange);
 }
 
 .sedans-card a {
@@ -81,8 +86,8 @@
 }
 
 .suvs-card {
-  background: var(--card-dark-cyan);
   grid-area: suvs-card;
+  background: var(--card-dark-cyan);
 }
 
 .suvs-card a {
@@ -90,9 +95,10 @@
 }
 
 .luxury-card {
-  background: var(--card-very-dark-cyan);
   grid-area: luxury-card;
+
   border-radius: 0 0 16px 16px;
+  background: var(--card-very-dark-cyan);
 }
 
 .luxury-card a {
@@ -129,7 +135,9 @@
 
   .card > a {
     position: relative;
+
     top: 3.5rem;
+
     padding: 1.3rem 2.6rem;
     font: 600 1.3rem/0 "Lexend Deca", sans-serif;
 
